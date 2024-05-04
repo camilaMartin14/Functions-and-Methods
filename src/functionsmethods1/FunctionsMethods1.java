@@ -9,19 +9,19 @@ public class FunctionsMethods1 {
        Create a function that returns the sum of one to the number passed by the included parameter.
         Ex.: 5 --> 1 + 2 + 3 + 4 + 5
      */
-        //Ejercicio 1 main
+        //Exercise 1 main
         int n1 = 5;
         sumaIN (n1);
         
-        int res = sumaIN (n1);//definir una llamada llamada (paso el valor)
+        int res = sumaIN (n1);
         System.out.println(res);
         System.out.println("---------------------------");
         
-        //Ejercicio 2 main.
+        //Exercise 2 main.
         {for (int i = 0; i < 10; i++) {
             System.out.println(generateRandomNumber(1,10)); }
         System.out.println("---------------------------");
-        //Ejercicio 3 main
+        //Exercise 3 main
         {
                pairsBetween (1,10);}
         System.out.println("---------------------------");
@@ -41,14 +41,13 @@ public class FunctionsMethods1 {
     public static int sumaIN (int n){//definir un método (paso el tipo)
     int suma = 0;
     for (int i = 1; i <= n; i++) {
-            suma += i;//i porque n es siempre el mismo valor, i es la que toma la suma
+            suma += i;//(i porque n es siempre el mismo valor, i es la que toma la suma del bucle)
             
         }
     return suma;
     }
     /*
-    Create a function that generates a random number between two
-    numbers passed by parameter.
+    Create a function that generates a random number between two numbers passed by parameter.
     */
     
        public static int generateRandomNumber (int minimo, int maximo) {
