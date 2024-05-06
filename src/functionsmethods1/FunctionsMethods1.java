@@ -44,8 +44,8 @@ public class FunctionsMethods1 {
     }
     
     /*
-    Create a function that generates a random number between two
-    numbers passed by parameter.
+    Create a function that generates a random number between 
+    two numbers passed by parameter.
     */
     public static int generateRandomNumber(int minimo, int maximo) {
         double number = (Math.random() * (maximo - minimo + 1)) + minimo ;
