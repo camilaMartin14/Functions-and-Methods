@@ -1,6 +1,5 @@
 package functionsmethods1;
 
-//A function returns something and a method returns nothing
 public class FunctionsMethods1 {
   
     public static void main(String[] args) {
